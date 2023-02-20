@@ -1,0 +1,48 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hallo !
+- intent: goodbye
+  examples: |
+    - Better call Saul !
+- intent: affirm
+  examples: |
+    - yep
+    - Okay
+- intent: deny
+  examples: |
+    - nope
+    - nah
+- intent: mood_great
+  examples: |
+    - best
+    - bagus
+    - hebat
+    - mantap
+    - saya berasa gembira
+    - saya sangat gembira
+    - sangat bagus
+    - best giler
+- intent: mood_unhappy
+  examples: |
+    - saya sangat sedih
+    - saya rasa kurang sihat
+    - saya kecewa
+    - sangat sedih
+    - I'm so sad
+    - sedih
+    - jiwang
+    - tidak gembira
+    - tak bagus
+    - kurang bagus
+    - sangat sangat kecewa
+    - sangat hampa
+    - sange pilu
+- intent: bot_challenge
+  examples: |
+    - awak robot about manusia?
+    - adakah awak manusia?
+    - saper awak?
+    - awak nie siapa?
